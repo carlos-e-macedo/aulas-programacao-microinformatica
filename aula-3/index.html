@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style></style>
+  </head>
+
+  <body>
+    <h1>Formulário</h1>
+    <p>Preencha as informações abaixo</p>
+    <br />
+
+    <form>
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+
+        <label for="first-name">Nome:</label>
+        <input
+          type="text"
+          name=""
+          id="first-name"
+          required="true"
+          placeholder="Ex: Manuel"
+        />
+        <br /><br />
+
+        <label for="last-name">Sobrenome:</label>
+        <input
+          type="text"
+          name=""
+          id="last-name"
+          required="true"
+          placeholder="Ex: Silva"
+        />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name=""
+          id="email"
+          required="true"
+          placeholder="Ex: manuel.silva@fatec.com"
+        />
+        <br /><br />
+
+        <label for="pass">Senha:</label>
+        <input
+          type="password"
+          name=""
+          id="pass"
+          required="true"
+          placeholder="Ex: senha123"
+        />
+        <br /><br />
+
+        <label for="last-name">Data de Nascimento:</label>
+        <input type="date" name="" id="date-birth" required="true" />
+
+        <p>Genêro:</p>
+        <input type="radio" name="" id="male" value="masculino" />
+        <label for="male">Masculino</label>
+        <br />
+
+        <input type="radio" name="" id="female" value="feminino" />
+        <label for="female">Feminino</label>
+        <br />
+
+        <input type="radio" name="" id="others" value="outros" />
+        <label for="others">Outros</label>
+
+        <p>Interesses:</p>
+        <input type="checkbox" id="run" name="" value="Correr" />
+        <label for="run">Correr</label><br />
+
+        <input type="checkbox" id="play" name="" value="Jogar" />
+        <label for="play">Jogar</label><br />
+
+        <input type="checkbox" id="tour" name="" value="Passear" />
+        <label for="tour">Passear</label><br />
+
+        <input type="checkbox" id="work" name="" value="Trabalhar" />
+        <label for="work">Trabalhar</label><br />
+
+        <input type="checkbox" id="learn" name="" value="Estudar" />
+        <label for="learn">Estudar</label><br />
+      </fieldset>
+    </form>
+
+    <br />
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+    <br />
+    <br />
+
+    <hr />
+
+    <a href="https://www.youtube.com/" alt="Link para acessar o site do youtube"
+      >Acesse o Youtube</a
+    >
+    <br />
+
+    <img
+      width="80px"
+      src="data:image/png;base64,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"
+      alt=""
+    />
+  </body>
+</html>
