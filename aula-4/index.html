@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Via CEP</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Buscar CEP</h1>
+    <p>Digite o cep no campo abaixo</p>
+
+    <label for="input_cep">CEP:</label>
+    <input type="number" name="" id="input_cep" placeholder="Ex: 12345-678" />
+
+    <button type="submit" onclick="buscarCep()">Buscar</button>
+
+    <br />
+    <br />
+    <form id="form_cep">
+      <fieldset>
+        <legend>Dados do CEP</legend>
+
+        <label for="input_bairro">Bairro:</label>
+        <input type="text" name="" id="input_bairro" />
+        <br />
+        <br />
+
+        <label for="input_cep">Cep:</label>
+        <input type="text" name="" id="input_cep" />
+        <br />
+        <br />
+
+        <label for="input_complemento">Complemento:</label>
+        <input type="text" name="" id="input_complemento" />
+      </fieldset>
+    </form>
+  </body>
+</html>
