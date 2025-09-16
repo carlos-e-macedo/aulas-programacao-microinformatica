@@ -2,86 +2,86 @@ const promptLib = require("prompt-sync")();
 
 // ---------- Exercicio 1 ----------
 
-// let nome = 'Carlos'
-// let idade = 19
-// let jaAlmocou = true
+let nome = 'Carlos'
+let idade = 19
+let jaAlmocou = true
 
-// // ---------- Exercicio 2 ----------
+// ---------- Exercicio 2 ----------
 
-// let numero1 = 50
-// let numero2 = 5
+let numero1 = 50
+let numero2 = 5
 
-// console.log(numero1 + numero2) // Soma
-// console.log(numero1 - numero2) // Subtração
-// console.log(numero1 * numero2) // Multiplicação
-// console.log(numero1 / numero2) // Divisão
+console.log(numero1 + numero2) // Soma
+console.log(numero1 - numero2) // Subtração
+console.log(numero1 * numero2) // Multiplicação
+console.log(numero1 / numero2) // Divisão
 
-// // ---------- Exercicio 3 ----------
+// ---------- Exercicio 3 ----------
 
-// let cidade = 'Barueri'
-// let estado = 'Imperial'
+let cidade = 'Barueri'
+let estado = 'Imperial'
 
-// console.log("Eu moro em " + cidade + ", " + estado) // Concatenação
-// console.log(`Eu moro em ${cidade}, ${estado}`) // Interpolação
+console.log("Eu moro em " + cidade + ", " + estado) // Concatenação
+console.log(`Eu moro em ${cidade}, ${estado}`) // Interpolação
 
-// // ---------- Exercicio 4 ----------
-
-
-// let idadeEx4 = promptLib("Qual a sua idade? ")
-
-// if(idade >= 18) {
-//   console.log("Você pode tirar a CNH!")
-// } else {
-//   let idadeRestante = 18 - idade
-//   alert(`Faltam ${idadeRestante} para você tirar a CNH.`)
-// }
-
-// // ---------- Exercicio 5 ----------
-
-// const numero = promptLib("Digite um número")
-
-// for (let index = 0; index <= 10; index++) {
-//   console.log(`${numero} x ${index} = `, numero * index )
-// }
-
-// // ---------- Exercicio 6 ----------
+// ---------- Exercicio 4 ----------
 
 
-// let numeroInt = 25
-// let numeroStr = '25'
+let idadeEx4 = promptLib("Qual a sua idade? ")
 
-// console.log(numeroInt == numeroStr) // Compara apenas o valor da variável
-// console.log(numeroInt === numeroStr) // Compara o valor e tipo de dado da variável
+if(idade >= 18) {
+  console.log("Você pode tirar a CNH!")
+} else {
+  let idadeRestante = 18 - idade
+  alert(`Faltam ${idadeRestante} para você tirar a CNH.`)
+}
 
-// // ---------- Exercicio 7 ----------
+// ---------- Exercicio 5 ----------
 
-// let diaDaSemana = Number(promptLib("Número do dia da semana? "))
+const numero = promptLib("Digite um número")
 
-// switch (diaDaSemana) {
-//   case 1:
-//     console.log("Domingo")
-//     break
-//   case 2:
-//     console.log("Segunda")
-//     break
-//   case 3:
-//     console.log("Terça")
-//     break
-//   case 4:
-//     console.log("Quarta")
-//     break
-//   case 5:
-//     console.log("Quinta")
-//     break
-//   case 6:
-//     console.log("Sexta")
-//     break
-//   case 7:
-//     console.log("Sábado")
-//     break
-//   default:
-//     console.log("Escolha um número entre 1 e 7")
-// }
+for (let index = 0; index <= 10; index++) {
+  console.log(`${numero} x ${index} = `, numero * index )
+}
+
+// ---------- Exercicio 6 ----------
+
+
+let numeroInt = 25
+let numeroStr = '25'
+
+console.log(numeroInt == numeroStr) // Compara apenas o valor da variável
+console.log(numeroInt === numeroStr) // Compara o valor e tipo de dado da variável
+
+// ---------- Exercicio 7 ----------
+
+let diaDaSemana = Number(promptLib("Número do dia da semana? "))
+
+switch (diaDaSemana) {
+  case 1:
+    console.log("Domingo")
+    break
+  case 2:
+    console.log("Segunda")
+    break
+  case 3:
+    console.log("Terça")
+    break
+  case 4:
+    console.log("Quarta")
+    break
+  case 5:
+    console.log("Quinta")
+    break
+  case 6:
+    console.log("Sexta")
+    break
+  case 7:
+    console.log("Sábado")
+    break
+  default:
+    console.log("Escolha um número entre 1 e 7")
+}
 
 // ---------- Exercicio 8 ----------
 
